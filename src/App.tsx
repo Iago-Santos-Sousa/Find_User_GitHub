@@ -5,7 +5,7 @@ import { UserProps } from "./types/user";
 import Loader from "./components/Loader";
 import ViewUser from "./components/ViewUser";
 const API: string = "https://api.github.com/users";
-const myUserName: string = "Iago-Santos-Sousa";
+// const myUserName: string = "Iago-Santos-Sousa";
 
 function App() {
   const inputRef = useRef<HTMLInputElement>(null);

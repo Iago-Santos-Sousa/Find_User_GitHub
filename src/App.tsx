@@ -14,7 +14,7 @@ function App() {
   const [error, setError] = useState<boolean | string>(false);
   console.log(user);
 
-  const loaderUser = async (userName: string) => {
+  const loaderUser = async (userName: string): Promise<void> => {
     if (userName.trim() === "") {
       setError("Informe um login de usuário!");
       setUser(null);
@@ -37,20 +37,12 @@ function App() {
       inputRef.current?.focus();
       return;
     }
-    const {
-      name,
-      avatar_url,
-      login,
-      location,
-      followers,
-      following,
-      public_repos,
-    } = data;
+    const { name, avatar_url, login, followers, following, public_repos } =
+      data;
     const userData: UserProps = {
       name,
       avatar_url,
       login,
-      location,
       followers,
       following,
       public_repos,
@@ -70,7 +62,6 @@ function App() {
         name={user?.name ? user.name : ""}
         avatar_url={user?.avatar_url ? user?.avatar_url : ""}
         login={user?.login ? user?.login : ""}
-        location={user?.location ? user?.location : ""}
         followers={user?.followers ? user?.followers : 0}
         following={user?.following ? user?.following : 0}
         public_repos={user?.public_repos ? user.public_repos : 0}

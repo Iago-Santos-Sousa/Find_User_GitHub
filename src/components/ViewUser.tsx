@@ -5,7 +5,6 @@ const ViewUser = ({
   name,
   avatar_url,
   login,
-  location,
   followers,
   following,
   public_repos,

@@ -15,6 +15,9 @@ const Search = ({ loadUser, inputRef }: SearchProps): JSX.Element => {
       <div className="search-area">
         <input
           ref={inputRef}
+          onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) =>
+            e.key == "Enter" ? loadUser(userName) : null
+          }
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setUserName(e.target.value)
           }

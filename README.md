@@ -4,11 +4,10 @@
 ![Screenshot](https://github.com/Iago-Santos-Sousa/Find_User_GitHub/blob/main/Captura%20de%20tela%202024-08-07%20220225.png?raw=truee)
 
 ## 📝 Descrição do projeto
-Bem-vindo ao projeto Consulta do Tempo, uma aplicação desenvolvida em React.js que utiliza a Open Weather API para fornecer informações meteorológicas em tempo real. Este projeto é ideal para quem deseja criar uma aplicação útil e aprender a integrar APIs externas com React.js.
+Projeto para encontrar seu usuário do GitHUb.
 
 ## 💻 Features do projeto
-- Busca por Cidade: Insira o nome de uma cidade para obter informações meteorológicas.
-- Dados Meteorológicos em Tempo Real: Exibe temperatura atual, condições climáticas, umidade, velocidade do vento.
+- Busca seu perfil no GitHub com a quantidade de seguidores e repositórios.
 - Interface Intuitiva: Design simples e fácil de usar.
 - Design Responsivo: Interface amigável e responsiva para uso em diferentes dispositivos.
 
@@ -16,7 +15,7 @@ Bem-vindo ao projeto Consulta do Tempo, uma aplicação desenvolvida em React.js
 - React.js: Biblioteca JavaScript para construção de interfaces de usuário.
 - HTML5 e CSS3: Para estrutura e estilização da aplicação.
 - JavaScript: Lógica de funcionamento da aplicação.
-- Open Weather API: API externa para obtenção de dados meteorológicos.
+- GitHub API para fazer a busca do perfil.
 
 ## 📌 Links 
  - [Deploy do projeto](https://iago-santos-sousa.github.io/Find_User_GitHub/)
